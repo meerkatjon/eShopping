@@ -8,18 +8,18 @@
 }
 .footer-logo{
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 20px;
 }
 .footer-logo p{
-    color: #383838;
+    color: #0e0101;
     font-size: 46px;
     font-weight: 700;
 }
 .footer-links{
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 30px;
     color: #252525;
     font-size: 20px;
 

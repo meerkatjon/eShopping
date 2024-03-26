@@ -4,12 +4,13 @@
     align-items: center;
     gap:10px;
     height: 90vh;
+    margin-bottom: 30px;
 }
 .popular h1{
+    margin-top: 25px;
     color: #171717;
     font-size: 25px;
     font-weight: 600;
-
 }
 .popular hr{
     width: 200px;
@@ -19,7 +20,7 @@
 
 }
 .popular-item{
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     gap: 30px;
 }
