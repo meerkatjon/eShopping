@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 50px;
 
 }
 
@@ -12,14 +13,9 @@
     align-items: left;
     gap: 20px;
 }
-<<<<<<< HEAD
-.footer-logo p{
-    color: #0e0101;
-=======
 
 .footer-logo p {
     color: #383838;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     font-size: 46px;
     font-weight: 700;
 }

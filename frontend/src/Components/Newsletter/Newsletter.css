@@ -1,21 +1,14 @@
-<<<<<<< HEAD
 .newsletter{
     /* width:65%;
     height: 40vh; */
     width: 82%;
     height: 50vh;
-=======
-.newsletter {
-    width: 65%;
-    height: 40vh;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin-top: 50px;
     padding: 0px 140px;
-<<<<<<< HEAD
     /* background: linear-gradient(180deg, #fde1ff 0%,#e1ffea22 60%); */
     background-image: linear-gradient(to right top, #fc1874, #fd6695, #fb94b3, #f4bdcf, #eae4e6);
     gap: 30px;
@@ -30,22 +23,6 @@
     font-size: 20px;
     font-weight: 500;
     
-=======
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
-    gap: 30px;
-}
-
-.newsletter h1 {
-    color: #a76dbf;
-    font-size: 55px;
-    font-weight: 600;
-}
-
-.newsletter p {
-    color: #454545;
-    font-size: 20px;
-
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
 }
 
 .newsletter div {
@@ -58,14 +35,8 @@
     border-radius: 80px;
     border: 1px solid #e3e3e3;
 }
-<<<<<<< HEAD
 .newsletter input{
     width: 150px;
-=======
-
-.newsletter input {
-    width: 500px;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     margin-left: 30px;
     border: none;
     outline: none;
@@ -73,16 +44,9 @@
     font-family: poppins;
 
 }
-<<<<<<< HEAD
 .newsletter div button{
     width: 150px;
     height: 50px;
-=======
-
-.newsletter div button {
-    width: 210px;
-    height: 70px;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     border-radius: 80px;
     background: black;
     color: white;

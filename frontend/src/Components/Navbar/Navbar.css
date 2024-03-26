@@ -8,7 +8,6 @@
 
 .nav-logo {
     display: flex;
-<<<<<<< HEAD
     align-items: left;
     /* gap: 10px; */
     width: 15px;
@@ -16,14 +15,6 @@
 }    
 .nav-logo p{
     color: #a356aa;
-=======
-    align-items: center;
-    gap: 10px;
-}
-
-.nav-logo p {
-    color: #171717;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     font-size: 38px;
     font-weight: 600;
 }
@@ -60,16 +51,9 @@
     align-items: center;
     gap: 45px;
 }
-<<<<<<< HEAD
 .nav-login-cart button{
     width: 107px;
     height: 45px;
-=======
-
-.nav-login-cart button {
-    width: 157px;
-    height: 58px;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     outline: none;
     border: 1px solid #7a7a7a;
     border-radius: 75px;
@@ -78,17 +62,12 @@
     background: white;
     cursor: pointer;
 }
-<<<<<<< HEAD
 .nav-login-cart button:hover {
     background-color:#fd6695;
     transition: 0.2s;
     color: #f3f3f3;
 }
 .nav-login-cart button:active{
-=======
-
-.nav-login-cart button:active {
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     background: #f3f3f3;
 }
 

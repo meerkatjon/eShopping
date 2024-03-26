@@ -6,13 +6,8 @@
     height: 90vh;
     margin-bottom: 30px;
 }
-<<<<<<< HEAD
 .popular h1{
     margin-top: 25px;
-=======
-
-.popular h1 {
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     color: #171717;
     font-size: 25px;
     font-weight: 600;
@@ -25,14 +20,8 @@
     background: #252525;
 
 }
-<<<<<<< HEAD
 .popular-item{
     margin-top: 30px;
-=======
-
-.popular-item {
-    margin-top: 50px;
->>>>>>> ff33a97d4b7c7e89874b7f57723abcbcbc49c4d4
     display: flex;
     gap: 30px;
 }
