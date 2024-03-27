@@ -10,12 +10,12 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
-
 // import men_banner from './Components/Assets/banner_mens-removebg-preview.png'
 // import women_banner from './Components/Assets/banner_women-removebg-preview.png'
 // import kid_banner from './Components/Assets/banner_kids-removebg-preview.png'
-
 import Login from './Pages/Login';
+import Profile from './Pages/Profile';
+
 function App() {
   return (
     <div className="App">
@@ -33,7 +33,11 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />}/>
         </Routes>
+      <Routes>
+        <Route path='/Profile' element={<Profile />} />
+      </Routes>  
       <Footer />
+      
       </BrowserRouter>
     </div>
   );

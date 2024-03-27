@@ -1,4 +1,4 @@
-import {React, Link}from 'react'
+import React from 'react'
 import './hero.css'
 import hand_icon from'../Assets/hand_icon.png'
 import arrow_icon from '../Assets/arrow.png'
@@ -6,6 +6,7 @@ import arrow_icon from '../Assets/arrow.png'
 import hero_img from '../Assets/hero_image11.png'
 import NewCollections from '../NewCollections/NewCollections'
 // import hero_img from '../Assets/hero_image.png'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -28,8 +29,10 @@ const Hero = () => {
         </div>
         <div className='hero-latest-btn'>
             {/* <div>Latest Collection</div> */}
-        <a href ="#">Latest Collection</a>
+        <a href="#newColl"> Latest Collection 
         <img src={arrow_icon} alt="" />
+        </a>
+        
         </div>
         </div> 
         <div className='hero-right'>

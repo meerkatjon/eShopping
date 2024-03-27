@@ -7,7 +7,9 @@ import { ShopContext } from '../../Context/ShopContext'
 
 
 const Navbar = () => {
-    const[menu,setMenu]=useState("shop")
+    //const[menu,setMenu]=useState("shop")
+    const[menu,setMenu]=useState()
+    
     const {getCartCount} = useContext(ShopContext)
     const menuRef = useRef()
     const dropdown_toggle= (e) =>{

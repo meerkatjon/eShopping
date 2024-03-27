@@ -63,6 +63,9 @@
     background: #c7c7c7;
 
 }
+a {
+    outline: none;
+}
 
 @media(max-width:800px) {
     .footer {
