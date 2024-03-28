@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './CSS/Loginsignup.css'
 import Login from './Login'
 import { Link } from 'react-router-dom'
+import { baseUrl } from '../url'
 
 const Signup = () => {
   //const [state,setState] = useState({Signup})
@@ -18,7 +19,7 @@ const Signup = () => {
   const signup = async (e) => {
     e.preventDefault()
     let responseData;
-    await fetch('http://localhost:4000/signup', {
+    await fetch(`${baseUrl}/signup`, {
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
