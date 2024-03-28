@@ -17,7 +17,6 @@ const Signup = () => {
 
   const signup = async (e) => {
     e.preventDefault()
-    console.log("signup page", formData)
     let responseData;
     await fetch('http://localhost:4000/signup', {
       method: 'POST',
@@ -38,14 +37,19 @@ const Signup = () => {
   return (
     <div className='loginsignup'>
       <div className='loginsignup-container'>
-        <h1>Signup</h1>
-        <div className="loginsignup-fields">
-          <input type="text" placeholder='Name' name='username' value={formData.username} onChange={changeHandler} />
-          <input type="email" placeholder='Email Id' name='email' value={formData.email} onChange={changeHandler} />
-          <input type="password" placeholder='Password' name='password' value={formData.password} onChange={changeHandler} />
-        </div>
-        <button onClick={signup}>Submit</button>
-        <p className="loginsignup-login">Already have an account <Link to="/Login">click here</Link></p>
+        <form onSubmit={signup}>
+          <h1>Signup</h1>
+          <div className="loginsignup-fields">
+            <input type="text" placeholder='Name' name='username' value={formData.username} onChange={changeHandler} required />
+            <input type="email" placeholder='Email Id' name='email' value={formData.email} onChange={changeHandler} required />
+            <input type="password" placeholder='Password' name='password' value={formData.password} onChange={changeHandler} required />
+          </div>
+          <div className="loginsignup-fields-check">
+            <input className="loginsignup-fields-check" type="checkbox" required /> <label>I authorize Genii & its affiliates to store my communication preference.</label>
+          </div>
+          <button type="submit">Signup</button>
+          <p className="loginsignup-login">Already have an account <Link to="/Login">click here</Link></p>
+        </form>
       </div>
     </div>
   )

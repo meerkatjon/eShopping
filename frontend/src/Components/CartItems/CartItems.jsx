@@ -1,12 +1,13 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import './CartItems.css'
 import { ShopContext } from '../../Context/ShopContext'
 import remove_icon from '../Assets/cart_cross_icon.png'
 export const CartItems = () => {
     const { getCartTotalAmount, all_product, cartItems, removeFromCart } = useContext(ShopContext)
-
+    const { checkOut, setCheckout } = useState('')
     const handleCheckout = (e) => {
-        if (cartItems[e.id] > 0) {
+        console.log(cartItems)
+        if (cartItems > 0) {
             alert("Thank you for Shopping with us. Shipping details will be send to your email.");
         } else {
             alert("Nothing to checkout at this moment. Please continue shopping.");
