@@ -7,16 +7,13 @@ const multer = require("multer");
 const path = require("path");
 const cors = require("cors");
 require('dotenv').config();
-console.log('I am running!')
 app.use(express.json());
 app.use(cors());
 
 
 //database connection
-console.log('I am running db!')
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri);
-console.log('I am connected db!')
 
 //to get api - this connects the browser
 app.get("/", (req, res) => {
@@ -115,7 +112,6 @@ app.post('/removeproduct', async (req, res) => {
 
 // creating API for getting all products and using this we can send the products to the frontend
 app.get('/allproducts', async (req, res) => {
-    console.log("request received")
     let products = await Product.find({})
     res.send(products)
 })
